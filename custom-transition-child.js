@@ -2,7 +2,7 @@ var React = require('react/addons');
 var Promise = require('es6-promise').Promise;
 var groupPromises = {};
 
-var CustomTransitionChild = React.class({
+var CustomTransitionChild = React.createClass({
   displayName: 'CustomTransitionChild',
 
   propTypes: {

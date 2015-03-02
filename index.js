@@ -1,7 +1,7 @@
 var React = require('react/addons');
 var assign = require('react/lib/Object.assign');
 var ReactTransitionGroupClass = require('react/lib/ReactTransitionGroup');
-var ReactTransitionGroup = React.createFactory(ReactTransitionGroup);
+var ReactTransitionGroup = React.createFactory(ReactTransitionGroupClass);
 var CustomTransitionChildClass = require('./custom-transition-child');
 var CustomTransitionChild = React.createFactory(CustomTransitionChildClass);
 

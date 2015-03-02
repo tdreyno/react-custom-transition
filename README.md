@@ -44,7 +44,7 @@ function exitActive(elem, done) {
   TweenMax.to(elem, 1, { opacity: 0, onComplete: done });
 }
 
-var MyComponent = React.createComponent({
+var MyComponent = React.createClass({
   render: function() {
     return <CustomTransition
       beginEnter={beginEnter}
