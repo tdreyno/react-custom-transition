@@ -2,6 +2,8 @@
 
 This helper component takes the simplicity of the `ReactCSSTransitionGroup` and applies it to Javascript animations. This handles the simplest case of running some transition in an animation framework like Greensock TweenMax, which allows much more robust animations than CSS.
 
+**NOTE: Only works on a single child which transitions, such as full page transitions. Multiple children will not work as expected (such as buddy lists)**
+
 Use the library like this:
 
 ```
